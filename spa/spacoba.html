@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Page Application</title>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="spacoba.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="page active" id="home">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+        <div class="container">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item" id="Home">
+                <a class="nav-link" href="#" data-target="home"
+                  >Home<span class="sr-only">(current)</span></a
+                >
+              </li>
+
+              <li class="nav-item" id="About">
+                <a class="nav-link" href="#" data-target="about">About</a>
+              </li>
+
+              <li class="nav-item" id="Contact">
+                <a class="nav-link" href="#" data-target="contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <h1>Progressive Web Apps</h1>
+        <p class="text-left">
+          Pada bulan-bulan ini Google mengadakan kampanye penggunaan PWA. Apakah
+          sebenarnya PWA itu ? PWA sendiri merupakan kependekan dari Progressive
+          Web Apps. Dari katanya kita melihat adanya unsur web dan apps, mungkin
+          kita bisa menebak bahwa Google berusaha menjembatani antara web
+          application dan mobile application yang biasanya berjalan pada Android
+          dan Ios. Para pengembang aplikasi saat ini terbagi menjadi dua yaitu
+          web based atau app based. Pada web based mengandalkan web server di
+          mana manajemen lebih mudah karena semua proses utama berada di server.
+          Client mengandalkan browser dan harus terhubung dengan jaringan supaya
+          dapat menjalankan web application. Pada app based terlihat lebih cepat
+          karena tidak selalu terhubung dengan jaringan, tetapi development
+          maupun pemeliharaan aplikasi bisa berlangsung cukup rumit. Kita
+          mungkin tahu bahwa saat melakukan pengembangan mobile application kita
+          harus membuat pembuatan terpisah antara untuk Android dan juga Ios.
+          Pada saat pengembangan dengan target Androidpun kita juga harus
+          memperhatikan versi dari Android di mana aplikasi kita akan dideploy.
+          Selain itu kita harus membuat mekanisme update. Di sini Google membuat
+          PWA yang menjembatani antara kemudahan manajemen web application dan
+          kehandalan mobile application. Dengan menggunakan browser Chrome dan
+          Javascript, kita akan menggunakan cache dalam melakukan interaksi
+          dengan pengguna aplikasi saat kondisi jaringan sedang memburuk. PWA
+          atau Progressive Web Apps menawarkan tiga hal utama yaitu :
+        </p>
+        <p class="text-left">
+          1. Reliable Aplikasi akan cepat dijalankan bahkan pada kondisi
+          jaringan internet yang lambat.
+        </p>
+
+        <p class="text-left">
+          2. Fast Berespon dengan cepat dalam berinteraksi dengan pengguna
+          aplikasinya.
+        </p>
+        <p class="text-left">
+          3. Engaging Menyerupai mobile application, pengguna akan nyaman
+          menggunakan aplikasi berbasis PWA
+        </p>
+      </div>
+    </div>
+
+    <div class="page" id="about">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+        <div class="container">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item" id="Home">
+                <a class="nav-link" href="#" data-target="home">Home<span class="sr-only">(current)</span></a
+                >
+              </li>
+
+              <li class="nav-item" id="About">
+                <a class="nav-link" href="#" data-target="about">About</a>
+              </li>
+
+              <li class="nav-item" id="Contact">
+                <a class="nav-link" href="#" data-target="contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>Where you can learn and measure</h1>
+            <p class="text-left">
+              Whether you already have a website or you're just getting started,
+              learn to build for the modern web at web.dev. Then, apply your new
+              skills and solutions to any personal or professional site you work
+              on. After you've launched your site, come back to web.dev and
+              measure how well it supports your users. If there are areas where
+              it can improve, you'll get immediate steps to increase your
+              metrics. As the web advances, users' expectations get higher. With
+              web.dev's guidance, you can give your users the best possible
+              experience, wherever they are.
+            </p>
+          </div>
+          <div class="col">
+            <img src="pwa.png" class="img-fluid" alt="Responsive image" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page" id="contact">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+        <div class="container">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item" id="Home">
+                <a class="nav-link" href="#" data-target="home"
+                  >Home<span class="sr-only">(current)</span></a
+                >
+              </li>
+
+              <li class="nav-item" id="About">
+                <a class="nav-link" href="#" data-target="about">About</a>
+              </li>
+
+              <li class="nav-item" id="Contact">
+                <a class="nav-link" href="#" data-target="contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <h1>Kinda Feel Free to Contact Us</h1>
+        <p class="text-left">
+          "At vero eos et accusamus et iusto odio dignissimos ducimus qui
+          blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
+          et quas molestias excepturi sint occaecati cupiditate non provident,
+          similique sunt in culpa qui officia deserunt mollitia animi, id est
+          laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita
+          distinctio. Nam libero tempore, cum soluta nobis est eligendi optio
+          cumque nihil impedit quo minus id quod maxime placeat facere possimus,
+          omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
+          autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe
+          eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+          Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+          voluptatibus maiores alias consequatur aut perferendis doloribus
+          asperiores repellat."
+        </p>
+      </div>
+    </div>
+
+    <script src="spacoba.js"></script>
+  </body>
+</html>
